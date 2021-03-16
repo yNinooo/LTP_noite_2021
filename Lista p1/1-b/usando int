@@ -16,23 +16,23 @@ int main(void) {
 
   if (e_nro_1 > e_nro_2) {
     if (e_nro_2 > e_nro_3) {
-      printf("Ordem crescente: %i, %i, %i\n", e_nro_3, e_nro_2, e_nro_1);
+      printf("Ordem crescente: %i, %i, %i", e_nro_3, e_nro_2, e_nro_1);
     }
     else if (e_nro_1 > e_nro_3) {
-      printf("Ordem crescente: %i, %i, %i\n", e_nro_2, e_nro_3, e_nro_1);
+      printf("Ordem crescente: %i, %i, %i", e_nro_2, e_nro_3, e_nro_1);
     }
     else {
-      printf("Ordem crescente: %i, %i, %i\n", e_nro_2, e_nro_1, e_nro_3);
+      printf("Ordem crescente: %i, %i, %i", e_nro_2, e_nro_1, e_nro_3);
     }
   }
   else if (e_nro_1 > e_nro_3) {
-    printf("Ordem crescente: %i, %i, %i\n", e_nro_3, e_nro_1, e_nro_2);
+    printf("Ordem crescente: %i, %i, %i", e_nro_3, e_nro_1, e_nro_2);
   }
     else if (e_nro_2 > e_nro_3) {
-      printf("Ordem crescente: %i, %i, %i\n", e_nro_1, e_nro_3, e_nro_2);
+      printf("Ordem crescente: %i, %i, %i", e_nro_1, e_nro_3, e_nro_2);
     }
     else {
-      printf("Ordem crescente: %i, %i, %i\n", e_nro_1, e_nro_2, e_nro_3);
+      printf("Ordem crescente: %i, %i, %i", e_nro_1, e_nro_2, e_nro_3);
     }
     
 return 0;
