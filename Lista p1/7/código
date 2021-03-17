@@ -28,6 +28,6 @@ int main(void) {
     printf ("A resistência equivalente dos quadro resistores em série é de %.3fkΩ", Reqq);
   }
   else {
-  printf ("A resistência equivalente dos quadro resistores em série é de %f.2Ω", Req);
+  printf ("A resistência equivalente dos quadro resistores em série é de %.2fΩ", Req);
   }
 }
