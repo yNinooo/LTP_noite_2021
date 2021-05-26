@@ -14,15 +14,15 @@ int main(void) {
   while ((e_nro_1 > 1) && (e_nro_2 > 1))
   {
 
-    if (((e_nro_1 / valor_aux) > 0) || ((e_nro_2 / valor_aux) > 0))
+    while (((e_nro_1 % valor_aux) > 0) || ((e_nro_2 % valor_aux) > 0))
     {
       valor_aux = valor_aux + 1;
     }
-    if ((e_nro_1 / valor_aux) == 0)
+    if ((e_nro_1 % valor_aux) == 0)
     {
       e_nro_1 = e_nro_1 - 1;
     }
-    if ((e_nro_2 / valor_aux) == 0)
+    if ((e_nro_2 % valor_aux) == 0)
     {
       e_nro_2 = e_nro_2 - 1;
   }
